@@ -3,7 +3,7 @@ import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
-// Updated Tab Data
+// Updated Tab Data with fixed ESLint issues
 const TAB_DATA = [
   {
     title: "Skills",
@@ -69,11 +69,15 @@ const AboutSection = () => {
         <div className="mt-6 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-lg leading-relaxed text-gray-300">
-            I am a <strong>Cloud Administrator and Software Developer</strong> passionate about <strong>cloud computing, IT infrastructure, and full-stack development</strong>.
-            With expertise in <strong>Azure, SQL, JavaScript, and Python</strong>, I specialize in <strong>building scalable cloud solutions and developing web applications</strong>.
-            I have hands-on experience in **cloud services, database management, DevOps tools, and software testing**, making me well-equipped to optimize IT operations and business processes.
+            I am a <strong>Cloud Administrator and Software Developer</strong> passionate about{" "}
+            <strong>cloud computing, IT infrastructure, and full-stack development</strong>. With expertise in{" "}
+            <strong>Azure, SQL, JavaScript, and Python</strong>, I specialize in{" "}
+            <strong>building scalable cloud solutions and developing web applications</strong>.
           </p>
-          <p>
+          <p className="text-lg leading-relaxed text-gray-300">
+            I have hands-on experience in <strong>cloud services, database management, DevOps tools, and software testing</strong>, making me well-equipped to optimize IT operations and business processes.
+          </p>
+          <p className="text-lg leading-relaxed text-gray-300">
             Currently, I am <strong>seeking opportunities in Cloud Administration, Software Development, and IT Project Coordination</strong>.
           </p>
 
@@ -91,7 +95,7 @@ const AboutSection = () => {
           </div>
 
           {/* Tab Content */}
-          <div className="mt-6">{TAB_DATA.find((t) => t.id === tab).content}</div>
+          <div className="mt-6">{TAB_DATA.find((t) => t.id === tab)?.content}</div>
         </div>
       </div>
     </section>

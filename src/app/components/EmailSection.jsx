@@ -53,19 +53,29 @@ const EmailSection = () => {
 
       {/* Left Section - Contact Info */}
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I'm currently looking for new opportunities. Whether you have a question 
-          or just want to say hi, I'll try my best to get back to you!
+          I&apos;m currently looking for new opportunities. Whether you have a question 
+          or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
 
         {/* Social Links */}
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/CindyDuong5" target="_blank">
-            <Image src={GithubIcon} alt="GitHub" width={32} height={32} />
+            <Image
+              src={GithubIcon}
+              alt="GitHub Profile"
+              width={32}
+              height={32}
+            />
           </Link>
           <Link href="https://www.linkedin.com/in/cindy-duong-2516a7298/" target="_blank">
-            <Image src={LinkedinIcon} alt="LinkedIn" width={32} height={32} />
+            <Image
+              src={LinkedinIcon}
+              alt="LinkedIn Profile"
+              width={32}
+              height={32}
+            />
           </Link>
         </div>
       </div>
@@ -73,14 +83,21 @@ const EmailSection = () => {
       {/* Right Section - Contact Form */}
       <div>
         {status ? (
-          <p className={`text-center mt-2 ${status.includes("✅") ? "text-green-500" : "text-red-500"}`}>
+          <p
+            className={`text-center mt-2 ${
+              status.includes("✅") ? "text-green-500" : "text-red-500"
+            }`}
+          >
             {status}
           </p>
         ) : (
           <form className="flex flex-col" onSubmit={handleSubmit}>
             {/* Email Input */}
             <div className="mb-6">
-              <label htmlFor="email" className="text-white block mb-2 text-sm font-medium">
+              <label
+                htmlFor="email"
+                className="text-white block mb-2 text-sm font-medium"
+              >
                 Your email
               </label>
               <input
@@ -97,7 +114,10 @@ const EmailSection = () => {
 
             {/* Subject Input */}
             <div className="mb-6">
-              <label htmlFor="subject" className="text-white block text-sm mb-2 font-medium">
+              <label
+                htmlFor="subject"
+                className="text-white block text-sm mb-2 font-medium"
+              >
                 Subject
               </label>
               <input
@@ -114,7 +134,10 @@ const EmailSection = () => {
 
             {/* Message Input */}
             <div className="mb-6">
-              <label htmlFor="message" className="text-white block text-sm mb-2 font-medium">
+              <label
+                htmlFor="message"
+                className="text-white block text-sm mb-2 font-medium"
+              >
                 Message
               </label>
               <textarea
@@ -125,7 +148,7 @@ const EmailSection = () => {
                 value={formData.message}
                 onChange={handleChange}
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="Let&apos;s talk about..."
               />
             </div>
 
