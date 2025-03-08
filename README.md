@@ -1,30 +1,67 @@
-# Portfolio Website
+# 🚀 Cindy Duong's Portfolio
 
-This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+Welcome to my **Next.js portfolio website**! This project showcases my **skills, projects, and contact information** as a **Cloud Administrator & Software Developer**.
 
-## Installation
+## 🌟 Features
 
-1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
-2. Navigate to the project directory: `cd portfolio-website`
-3. Install the dependencies: `npm install`
+- 🏡 **Home Page** – Introduction with animated text
+- 📝 **About Section** – My skills, education, and certifications
+- 💼 **Projects Section** – List of personal & professional projects
+- 📧 **Contact Section** – Contact form with email sending functionality
+- 🌐 **Social Media Links** – GitHub & LinkedIn integration
+- 🎨 **Fully Responsive Design** – Optimized for desktop & mobile
 
-## Usage
+---
 
-1. Start the development server: `npm run dev`
-2. Open your browser and visit `http://localhost:3000` to view the website.
+## 🛠️ Tech Stack
 
-## Dependencies
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Email Service:** Nodemailer (SMTP with Gmail)
+- **Hosting:** Vercel
+- **Version Control:** Git & GitHub
 
-The following dependencies are required for this project:
+---
 
-- Next.js: A React framework for server-side rendering and static site generation.
-- Tailwind CSS: A highly customizable CSS framework.
-- React: A JavaScript library for building user interfaces.
-- React Icons: A collection of popular icons for React projects.
-- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
+## 🚀 Live Demo
 
-## License
+🔗 **[View Live Portfolio](https://your-portfolio.vercel.app/)**
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
+---
+## ⚡ Installation & Setup
 
+```bash
+1️⃣ Clone the Repository  
+git clone https://github.com/CindyDuong5/portfolio.git
+cd portfolio
+2️⃣ Install Dependencies
+npm install
+3️⃣ Set Up Environment Variables
+Create a .env.local file in the root directory and add:
+
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+🔹 Note: Use a Gmail App Password instead of your real password. See Google App Passwords for setup.
+
+4️⃣ Run Locally
+npm run dev
+Your portfolio will be available at http://localhost:3000.
+
+🚀 Deployment
+
+Deploy on Vercel:
+Sign in to Vercel and import your GitHub repo.
+Set Environment Variables under "Project Settings".
+Click "Deploy" and get your live portfolio link!
+
+🧑‍💻 Author
+
+👋 Cindy Duong
+📍 Toronto, Canada
+🔗 LinkedIn: 
+🔗 GitHub: 
+
+📜 License
+
+This project is open-source and available under the MIT License.
+
+🎉 Thank you for checking out my portfolio! 🚀 Feel free to fork, star, or reach out if you have any questions! 😊
