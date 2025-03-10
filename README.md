@@ -24,7 +24,7 @@ Welcome to my **Next.js portfolio website**! This project showcases my **skills,
 
 ## 🚀 Live Demo
 
-🔗 **[View Live Portfolio](https://your-portfolio.vercel.app/)**
+🔗 **[View Live Portfolio](https://portfolio-five-beta-75.vercel.app/)**
 
 ---
 ## ⚡ Installation & Setup
@@ -57,8 +57,8 @@ Click "Deploy" and get your live portfolio link!
 
 👋 Cindy Duong
 📍 Toronto, Canada
-🔗 LinkedIn: 
-🔗 GitHub: 
+🔗 LinkedIn: https://www.linkedin.com/in/cindy-duong-2516a7298/
+🔗 GitHub: https://github.com/CindyDuong5
 
 📜 License
 
